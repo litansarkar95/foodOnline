@@ -27,6 +27,9 @@ def registerUser(request):
             user.save()
             print('user is create ')
             return redirect('registerUser')
+        else:
+            print('invalid form')
+            print(form.errors)    
 
     else:
         form =UserForm()
