@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+
+{% load static %}
+<!-- Main Section Start -->
+{% block content %}
+<h2>{{user.username}}</h2>
+<h3>{{user.get_role}}</h3>
+
+{% endblock %}
