@@ -10,5 +10,7 @@ urlpatterns = [
     path('myAccount/',views.myAccount,name='myAccount'),
     path('cusDashboard/', views.cusDashboard,name='cusDashboard'),
     path('vendorDashboard/', views.vendorDashboard,name='vendorDashboard'),
+
+    path('activate/<uidb64>/<token>/',views.activate,name='activate'),
     
 ]
