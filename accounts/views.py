@@ -184,4 +184,17 @@ def cusDashboard(request):
 @login_required(login_url='login')
 @user_passes_test(check_role_vendor)
 def vendorDashboard(request):
-    return render(request,'accounts/vendorDashboard.html')       
+    return render(request,'accounts/vendorDashboard.html')    
+
+
+def forgot_password(request):
+    return  render(request,'accounts/forgot_password.html')   
+
+
+
+def reset_password_validate(request):
+    return 
+
+
+def reset_password(request):
+    return    
