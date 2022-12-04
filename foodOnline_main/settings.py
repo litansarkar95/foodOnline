@@ -157,4 +157,4 @@ EMAIL_PORT = config('EMAIL_PORT',cast=int)
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD =config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'foodonline marketplace <litan@gmail.com>'
+DEFAULT_FROM_EMAIL = 'Foodonline Marketplace < workbuy2021@gmail.com >'
